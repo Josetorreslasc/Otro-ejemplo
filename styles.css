@@ -1,0 +1,91 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(201, 31, 110);
+}
+
+header,
+section,
+footer {
+    padding: 20px;
+}
+
+h1,
+h2 {
+    color: #333;
+}
+
+p {
+    color: #666;
+}
+
+/* Estilos específicos */
+header {
+    background-color: #eb1f1f;
+    text-align: center;
+}
+
+h1 {
+    font-size: 32px;
+}
+
+section {
+    background-color: #fff;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #f2f2f2;
+    text-align: center;
+    font-size: 18px;
+    font-style: italic;
+    color: #666;
+}
+
+img {
+    width: 300px; /* Ancho deseado */
+    height: 200px; /* Altura deseada */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 10px;
+}
+
+form {
+    margin: 20px;
+    background-color: aqua;
+
+}
+
+form label {
+    font-style: italic;
+    color: blue;
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+form button[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+form button[type="submit"]:hover {
+    background-color: #555;
+}
